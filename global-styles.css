@@ -186,3 +186,14 @@ p {
 .template p {
     font-size: 32px;
 }
+
+.stroke {
+    user-select: none;
+    width: 50px;
+}
+
+.stroke:hover {
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    filter: drop-shadow(5px 0 0 white) drop-shadow(0 5px 0 white) drop-shadow(-5px 0 0 white) drop-shadow(0 -5px 0 white);
+}
