@@ -25,6 +25,7 @@ p {
 }
 
 ```
+![Fonts Image](images/fonts.png)
 
 ## Colors
 When creating a project think about the design process and what colors will be used through out the application, as a template pick maximum of 8 colors which may be used through-out the application.

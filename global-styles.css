@@ -132,7 +132,16 @@ li:hover {
     width: 100%;
 }
 
-p {
+.fonts {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.fonts h2 {
+    font-size: 46px;
+}
+
+.fonts p {
     font-family: "Patrick Hand", cursive;
-    font-size: 20px;
 }
