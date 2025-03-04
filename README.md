@@ -29,6 +29,4 @@ p {
 
 ## Colors
 When creating a project think about the design process and what colors will be used through out the application, as a template pick maximum of 8 colors which may be used through-out the application.
-```css
-
-```
+![Colors Template](images/colours.png)
