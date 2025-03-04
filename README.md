@@ -1,6 +1,8 @@
 # Template for Web-Development
 I am creating a template to follow for aesthetics for web-development, to one streamline my process for creating projects for web applications, and two to create a stylized project which I can follow for future projects as this theme can stay consistent to show off my personal traits.
 
+![Website Template](images/website-template.png)
+
 ## Font
 For the font I will use the [Google Font](https://fonts.google.com/) <span style="color:yellow; font-weight:bold; font-size:20px;">'Chewy' & 'Patrick'</span>. The usage is shown bellow in css.
 ```css
