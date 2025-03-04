@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Patrick+Hand&display=swap');
 
-:root {
-    --primary-color: red;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -140,6 +136,53 @@ li:hover {
     font-size: 46px;
 }
 
-.fonts p {
+p {
     font-family: "Patrick Hand", cursive;
+}
+
+:root {
+    --color1: #75DAD7;
+    --color2: #4EBCBA;
+    --color3: #279E9D;
+    --color4: #008080;
+    --color5: #006767;
+}
+
+.template {
+    background-color: var(--color1);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.template div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.template h2 {
+    width: fit-content;
+    color: var(--color5);
+    -webkit-text-stroke: 0;
+}
+
+.template button {
+    height: max-content;
+    font-size: 32px;
+    border-radius: 12px;
+    padding: 0 8px;
+    background-color: var(--color3);
+    border: none;
+    color: var(--color5);
+}
+
+.template button:hover {
+    transition: all ease-in-out 0.3s;
+    color: var(--color1);
+    background-color: var(--color5);
+    cursor: pointer;
+}
+
+.template p {
+    font-size: 32px;
 }
